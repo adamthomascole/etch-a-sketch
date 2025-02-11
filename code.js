@@ -26,7 +26,7 @@ function buildDivArray(divNum) {
     const width = 896;
     const gapSize = 4;
     const singleSide = (width / divNum);
-    const divSize = Math.floor(singleSide-gapSize)
+    const divSize = (singleSide-gapSize);
     console.log(divSize);
 
     for (let i = 0; i < divNum**2; i++) {
